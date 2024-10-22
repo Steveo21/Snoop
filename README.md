@@ -7,8 +7,8 @@ Primary reference for API Hashing:
 https://www.ired.team/offensive-security/defense-evasion/windows-api-hashing-in-malware
 
 Great Reading for the Resolution Functionality:
-
 https://cocomelonc.github.io/malware/2023/04/16/malware-av-evasion-16.html
+
 https://cocomelonc.github.io/malware/2023/04/08/malware-av-evasion-15.html
 
 
