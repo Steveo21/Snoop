@@ -14,3 +14,9 @@ https://cocomelonc.github.io/malware/2023/04/08/malware-av-evasion-15.html
 
 
 ![snoop](https://github.com/user-attachments/assets/b4f652a6-9f11-45d3-9011-4dc42120cc90)
+
+
+# Proof of Concept
+
+Start by running snoop and passing it the name of the function you want to hash...
+
