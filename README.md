@@ -3,10 +3,10 @@ Repository demonstrating API hashing with a pythonic hashing program that takes 
 
 This is a learning POC! All credit to the author(s) of the blog's that fueled this project:
 
-API Hashing:
+Primary reference for API Hashing:
 https://www.ired.team/offensive-security/defense-evasion/windows-api-hashing-in-malware
 
-Custom WinAPI implementations:
+Great Reading for the Resolution Functionality:
 https://cocomelonc.github.io/malware/2023/04/16/malware-av-evasion-16.html
 https://cocomelonc.github.io/malware/2023/04/08/malware-av-evasion-15.html
 
