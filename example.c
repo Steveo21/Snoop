@@ -1,4 +1,4 @@
-//gcc hashapi.c -o hashapi.exe -lshlwapi -lntdll
+//gcc hashapi.c -o hashapi.exe -lshlwapi
 #include <stdlib.h>
 #include <stdio.h>
 #include <windows.h>
