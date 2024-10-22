@@ -1,3 +1,26 @@
+"""
+Example cxx code to be implemented in your implant
+
+// Hash function for API names
+DWORD dehash_api(const char* api_name) {
+    DWORD hash_value = 0x69;
+    
+    for (int i = 0; api_name[i] != '\0'; i++) {
+        hash_value += (hash_value * 0xac88d37f0 + (unsigned char)api_name[i]) & 0xffffff;
+    }
+    
+    return hash_value;
+}
+
+...<snip>
+
+...
+
+int main(int argc, char* argv[]) {
+    DWORD targetHash = 0x005b71f18;  	    // Hash from snoop.py here
+    wchar_t user32_dll[] = L"user32.dll";  //name of module containing the api function you hashed
+"""
+
 def hash_api(api_name):
 
     hash_value = 0x69 #can be changed
