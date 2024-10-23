@@ -70,7 +70,7 @@ int main()
 
         customMessageBoxA MessageBoxA = (customMessageBoxA)functionAddress;
 
-        int result = MessageBoxA(NULL, "Meow-meow!", "=^..^=", MB_OK);  // Changed to store int result
+        customMessageBoxA(NULL, "Meow-meow!", "=^..^=", MB_OK);  // Changed to store int result
 
         return 0;  // Return 0 for success
 }
